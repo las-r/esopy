@@ -25,7 +25,8 @@ def run(code: str) -> None:
             case "i": stk.append(int(input("Value input: ")))
             case "p": print(stk[-1])
             case _: raise Exception(f"Unknown character: {char}")
-            
+        
+        #print(f"{i} ({char}), {stk}")
         i += 1
 
 if __name__ == "__main__":
