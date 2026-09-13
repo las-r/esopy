@@ -62,3 +62,6 @@ If you are fixing a bug, refactoring, or optimizing an existing interpreter:
 If you are adding a new example to an existing language:
 - **Give proper credit:** Check licenses and include the author's name at the top of the program. If the language doesn't support comments, then please add the file's name and author's name to the `credits.txt` in the examples folder. If there is none, then feel free to create it.
 - **Avoid duplicates:** Do not submit minified versions of existing code. Submissions must use a distinct algorithm or approach to be considered new.
+
+## Other General Rules
+- Please try to not run your autolinter on the entire repository, we want to keep our diffs neat.
