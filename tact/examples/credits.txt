@@ -1,0 +1,2 @@
+'multiply.tc' made by las-r
+'nth_triangular_number.tc' made by las-r
