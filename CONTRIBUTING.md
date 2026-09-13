@@ -50,17 +50,15 @@ if __name__ == "__main__":
 ## Overview
 A brief high-level description of how the language works, how code is read (e.g., left-to-right, 2D execution pointer), and the termination condition for programs.
 
-<!-- And then you can do whatever you want! There isn't a strong template for language specs since, in my opinion, a "good spec" can be very different across languages. -->
+<!-- And then you can do whatever you want! Try to be detailed to the point where someone else can be able to write their own interpreter from the ground up based on the spec alone. -->
 ```
 
 ## Modifying an Existing Esolang
 If you are fixing a bug, refactoring, or optimizing an existing interpreter:
+- **Preserve the CLI interface:** Ensure `run(code: str)` and the `sys.argv` fallback check remain unchanged.
+- **Update `spec.md`:** If your change affects instruction behavior, syntax edge cases, or memory limits, update the corresponding `spec.md` file in that language's directory.
+- **Test the fallback:** Verify that running `python <language>/interpreter.py` without arguments still executes the default test program cleanly.
 
-* **Preserve the CLI interface:** Ensure `run(code: str)` and the `sys.argv` fallback check remain unchanged.
-* **Update `spec.md`:** If your change affects instruction behavior, syntax edge cases, or memory limits, update the corresponding `spec.md` file in that language's directory.
-* **Test the fallback:** Verify that running `python <language>/interpreter.py` without arguments still executes the default test program cleanly.
-
-## Other Miscellaneous Fixes
-For typo fixes, repository documentation updates, or tooling additions (such as launcher scripts or CI workflows):
-
-1. **Open an Issue or Pull Request:** Clearly describe what you are updating and why.
+If you are adding a new example to an existing language:
+- **Give proper credit:** Check licenses and include the author's name at the top of the program.
+- **Avoid duplicates:** Do not submit minified versions of existing code. Submissions must use a distinct algorithm or approach to be considered new.
