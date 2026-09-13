@@ -24,7 +24,7 @@ def run(code: str) -> None:
             case "<": i += 0 if stk.pop() < 0 else 1
             case "i": stk.append(int(input("Value input: ")))
             case "p": print(stk[-1])
-            case _: raise Exception
+            case _: raise Exception(f"Unknown character: {char}")
             
         i += 1
 
