@@ -1,5 +1,5 @@
 # Tact
-**Designed by:** las-r
+**Designed by:** las-r\
 **Paradigm:** stack-based, imperative
 
 ## Overview
