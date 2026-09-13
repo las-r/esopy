@@ -3,6 +3,9 @@ import importlib
 import sys
 from pathlib import Path
 
+# esopy script executor
+# by las-r
+
 ROOT = Path(__file__).parent
 
 def run(lang, filep):
