@@ -1,7 +1,7 @@
 # Brainfuck
 **Designed by:** Urban Müller\
 **Paradigm:** cell-based, imperative\
-**More:** https://esolangs.org/wiki/Brainfuck
+**More:** [https://esolangs.org/wiki/Brainfuck](https://esolangs.org/wiki/Brainfuck)
 
 ## Overview
 Brainfuck is arguably the most famous and well-known esolang, being Turing-complete with only 8 single-character instructions. 
