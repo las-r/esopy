@@ -1,19 +1,14 @@
 # Befunge-93
-
 **Designed by:** Chris Pressey
-
 **Paradigm:** two-dimensional, stack-based, imperative
-
 **More:** [https://esolangs.org/wiki/Befunge](https://esolangs.org/wiki/Befunge)
 
 ## Overview
-
 Befunge-93 is a two-dimensional esolang designed with the goal of being as difficult to compile as possible.
 
 Programs are laid out on a fixed 80x25 grid. Execution starts at the top-left moving right, controlled by an instruction pointer (IP) that can change direction dynamically. Data is stored on a single standard LIFO stack, and non-instruction characters push their ASCII values to the stack.
 
 ## Instructions
-
 | Symbol | Action |
 | --- | --- |
 | `0`-`9` | Push this number onto the stack |
