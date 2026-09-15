@@ -24,10 +24,11 @@ def run(code: str) -> None:
             case "<": i += 0 if stk.pop() < 0 else 1
             case "i": stk.append(int(input("Value input: ")))
             case "p": print(stk[-1])
+            case "r": stk[-1], stk[-2], stk[-3] = stk[-3], stk[-1], stk[-2]
             case " ": pass
             case _: raise Exception(f"Unknown character: {char}")
         
-        #print(f"{i} ({char}), {stk}")
+        print(f"{i} ({char}), {stk}")
         i += 1
 
 if __name__ == "__main__":

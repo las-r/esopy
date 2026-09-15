@@ -17,6 +17,7 @@ Tact programs are a single string of characters executed left to right. The prog
 | `x` | Discard | Pop and discard the top element |
 | `s` | Swap | Swap the top two elements |
 | `o` | Over | Push a copy of the second-from-top element |
+| `r` | Rotate | Rotates the top 3 elements, i.e. brings the third element to the top  |
 | `j` | Jump | Pop `n`, set instruction pointer to index `n` |
 | `>` | Skip-if-positive | Pop `n`; if `n > 0` continue normally, else skip the next instruction |
 | `<` | Skip-if-negative | Pop `n`; if `n < 0` continue normally, else skip the next instruction |
