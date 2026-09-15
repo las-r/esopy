@@ -1,6 +1,7 @@
 # Tact
 **Designed by:** las-r\
 **Paradigm:** stack-based, imperative
+**More:** [https://esolangs.org/wiki/Tact](https://esolangs.org/wiki/Tact)
 
 ## Overview
 Tact programs are a single string of characters executed left to right. The program halts when the pointer runs past the end of the source.
