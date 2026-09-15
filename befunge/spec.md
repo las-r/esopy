@@ -1,6 +1,6 @@
 # Befunge-93
-**Designed by:** Chris Pressey
-**Paradigm:** two-dimensional, stack-based, imperative
+**Designed by:** Chris Pressey\
+**Paradigm:** two-dimensional, stack-based, imperative\
 **More:** [https://esolangs.org/wiki/Befunge](https://esolangs.org/wiki/Befunge)
 
 ## Overview
@@ -18,14 +18,14 @@ Programs are laid out on a fixed 80x25 grid. Execution starts at the top-left mo
 | `/` | Integer division: Pop *a* and *b*, push *b* / *a* |
 | `%` | Modulo: Pop *a* and *b*, push *b* mod *a* |
 | `!` | Logical NOT: Pop a value; push 1 if 0, else 0 |
-| ``` | Greater than: Pop *a* and *b*, push 1 if *b* > *a*, else 0 |
+| `` ` `` | Greater than: Pop *a* and *b*, push 1 if *b* > *a*, else 0 |
 | `>` | Move right |
 | `<` | Move left |
 | `^` | Move up |
 | `v` | Move down |
 | `?` | Move in a random direction |
 | `_` | Horizontal IF: Pop a value; move right if 0, else left |
-| `|` | Vertical IF: Pop a value; move down if 0, else up |
+| `\|` | Vertical IF: Pop a value; move down if 0, else up |
 | `"` | Toggle String mode: Push ASCII values of characters until next `"` |
 | `:` | Duplicate value on top of stack |
 | `\` | Swap top two values on stack |
