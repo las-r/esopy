@@ -60,7 +60,7 @@ If you are fixing a bug, refactoring, or optimizing an existing interpreter:
 - **Test the fallback:** Verify that running `python <language>/interpreter.py` without arguments still executes the default test program cleanly.
 
 If you are adding a new example to an existing language:
-- **Give proper credit:** Check licenses and include the author's name at the top of the program. If the language doesn't support comments, then please add the file's name and author's name to the `credits.txt` in the examples folder. If there is none, then feel free to create it.
+- **Give proper credit:** Check licenses and include the author's name at the top of the program, if the author is known. If the language doesn't support comments, then please add the file's name and author's name to the `credits.txt` in the examples folder. If there is none, then feel free to create it.
 - **Avoid duplicates:** Do not submit minified versions of existing code. Submissions must use a distinct algorithm or approach to be considered new.
 
 ## Other General Rules
