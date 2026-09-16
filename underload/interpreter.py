@@ -43,7 +43,7 @@ if __name__ == "__main__":
         with open(sys.argv[1], "r", encoding="utf-8") as f:
             code = f.read()
     else:
-        print("FALLBACK PROGRAM: Hello World")
-        code = "(:a*^)(:a*^)."
+        print("FALLBACK PROGRAM: Fibonacci Numbers")
+        code = "(()(*))(~:^:S*a~^a~!~*~:(/)S^):^"
 
     run(code)

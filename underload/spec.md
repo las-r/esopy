@@ -1,5 +1,5 @@
 # Underload
-**Designed by:** User:ais523\
+**Designed by:** User:ais523 on esolangs.org\
 **Paradigm:** functional, concatenative\
 **More:** [https://esolangs.org/wiki/Underload](https://esolangs.org/wiki/Underload)
 
