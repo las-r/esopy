@@ -28,7 +28,7 @@ def run(code: str) -> None:
             case " ": pass
             case _: raise Exception(f"Unknown character: {char}")
         
-        print(f"{i} ({char}), {stk}")
+        #print(f"{i} ({char}), {stk}")
         i += 1
 
 if __name__ == "__main__":
