@@ -1,5 +1,5 @@
 # Tact
-**Designed by:** las-r\
+**Designed by:** las-r on GitHub\
 **Paradigm:** stack-based, imperative
 **More:** [https://esolangs.org/wiki/Tact](https://esolangs.org/wiki/Tact)
 
